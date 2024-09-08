@@ -31,7 +31,7 @@ Once the frontend is running, details such as the local and network URLs will be
 
 # Brief Explanation:
 
-**This project only work on 1 machine. To work on different machinecs locally you would need https to work with .getUserMedia()**
+**This project only works on 1 machine. To work on different machinecs locally you would need to set up a `https` to work with `.getUserMedia()`**
 
 ## Project Overview
 This project implements React app that streams audio from one client to another via WebRTC for peer-to-peer connection.  
