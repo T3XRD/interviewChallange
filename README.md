@@ -26,12 +26,12 @@ yarn start:fe
 Once the frontend is running, details such as the local and network URLs will be displayed in the terminal. It will look something like this:
 
 ```
-  ➜  Local:  localhost:5173
+  ➜  Local:  http://localhost:5173
 ```
 
-You can access the application using either of these URLs.
-
 # Brief Explanation:
+
+**This project only work on 1 machine. To work on different machinecs locally you would need https to work with .getUserMedia()**
 
 ## Project Overview
 This project implements React app that streams audio from one client to another via WebRTC for peer-to-peer connection.  
