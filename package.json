@@ -1,0 +1,17 @@
+{
+  "name": "interviewchallenge",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "server",
+    "fe"
+  ],
+  "scripts": {
+    "prep": "npm install --workspace=server && npm install --workspace=fe",
+    "start:be": "npm run start --workspace=server",
+    "start:fe": "npm run dev --workspace=fe"
+  },
+  "author": "T3XRDD",
+  "license": "ISC",
+  "description": ""
+}
