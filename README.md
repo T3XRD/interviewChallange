@@ -33,16 +33,14 @@ You can access the application using either of these URLs.
 
 # Brief Explanation:
 
-Technologies used: React + Vite, TS, JS, Express, WebSockets, WebRTC, CSS
-
-I've chosen to work with the native WebRTC API, and as a signaling server, I'm using an Express.js server with WebSockets. The reason I've decided to work with WebSockets as a signaling server is that there is no delay between users in exchanging offers, answers, and ICE candidates.
-
 ## Project Overview
 This project implements React app that streams audio from one client to another via WebRTC for peer-to-peer connection.  
 The server is built using `Express.js` and `ws` packages. I'm using WebSockets for a reliable and fast communication between clients.  
 WebSockets are responsible for sending and receiving of offers, answers, and IceCandidates.  
 Additionally, this app implements a basic sound manipulation controls such as gain and frequency filter.  
-Lastly, this app implements a real-time audio visualization in a waveform using `Canvas API` and `Audio Context API`
+Lastly, this app implements a real-time audio visualization in a waveform using `Canvas API` and `Audio Context API`  
+
+Technologies used: React + Vite, TS, JS, Express, WebSockets, WebRTC, CSS
 
 ## Process and features:
 
